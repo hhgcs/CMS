@@ -1,0 +1,111 @@
+## Ignore Visual Studio temporary files, build results, and
+## user-specific files
+
+# Build results
+bin/
+obj/
+out/
+[Ll]og/
+*.log
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vscode/
+.idea/
+*.swp
+
+# ASP.NET specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Razor temp files
+**/Generated\ Files/
+
+# MSTest test Results
+TestResults/
+*.VisualState.xml
+*.cache
+*.vsp
+*.vspx
+*.coverage
+*.coveragexml
+
+# NUnit
+*.nunit.xml
+
+# xUnit
+*.xunit.xml
+
+# DotCover
+.idea/
+*.dotCover
+
+# VS Code directories
+.vscode/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# DotNet Core
+project.lock.json
+project.fragment.lock.json
+*.deps.json
+*.runtimeconfig.json
+
+# .NET Core Tooling
+**/.vs/
+.vs/
+*.dbmdl
+*.dbproj.schemaview
+*.pdb
+
+# Rider
+.idea/
+*.sln.iml
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+# Exclude if using package.config and committing packages
+# !packages/repositories.config
+
+# JetBrains Rider
+.idea/
+
+# Environment
+.env
+.env.*
+
+# Others
+*.bak
+*.tmp
+*.old
+
+# Auto-generated files
+Generated_Code/
+
+# Logs
+*.log
+
+# macOS metadata
+.DS_Store
+
+# Linux/UNIX swap files
+*~
+
+# Docker
+*.pid
+docker-compose.override.yml
