@@ -1,7 +1,7 @@
 
 using System.ComponentModel.DataAnnotations;
 
-public class Creature
+public abstract class Creature
 {
 
     // Constructor
@@ -18,7 +18,7 @@ public class Creature
     private int _age;
 
     // Public Properties
-    public string? Name { get; }
+    public string? Name { get { return _name; } }
     public int Health
     {
         get { return _health; }
@@ -42,4 +42,12 @@ public class Creature
         Console.WriteLine($"Creature \nName: {Name} \nAge: {Age} \nHealt: {Health}");
     }
 
+    // virtual (overridable)
+    public virtual void Move()
+    {
+        Console.WriteLine("The creature shuffles forward");
+    }
+
+    // abstract
+    public abstract string MakeSound();
 }
